@@ -1,61 +1,73 @@
-
-#top{
+#top {
     background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-     url(images/hero.png) no-repeat center;
-     background-size: cover;
+        url(images/hero.png) no-repeat center;
+    background-size: cover;
 }
-#qsn:before{
-content: "";
-width: 100px;
-background: darkorange;
-padding: 2px;
-position: absolute;
-top: -5px;
-border-radius: 20px;
+
+#qsn:before {
+    content: "";
+    width: 100px;
+    background: darkorange;
+    padding: 2px;
+    position: absolute;
+    top: -5px;
+    border-radius: 20px;
 }
-#rejoignez-nous:before{
-content: "";
-width: 100px;
-background: darkorange;
-padding: 4px;
-position: absolute;
-top: 0px;
-border-radius: 20px;
+
+#rejoignez-nous:before {
+    content: "";
+    width: 100px;
+    background: darkorange;
+    padding: 4px;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
 }
-#mentorat{
+
+#mentorat {
     background: url(images/Rectangle\ 9.png) no-repeat center/100%;
 }
-#certification{
+
+#certification {
     background: url(images/Rectangle\ 10.png) no-repeat center/100%;
 }
-#supports{
+
+#supports {
     background: url(images/Rectangle\ 11.png) no-repeat center/100%;
 }
-#conseils{
+
+#conseils {
     background: url(images/Rectangle\ 12.png) no-repeat center/100%;
 }
+
 @media screen and (max-width:768px) {
-    h1{
+    h1 {
         font-size: 20px;
     }
-    h2{
+
+    h2 {
         font-size: 18px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         width: 20% !important
     }
 }
+
 @media screen and (max-width:500px) {
-    h1{
+    h1 {
         font-size: 18px;
     }
-    h2{
+
+    h2 {
         font-size: 16px !important;
     }
-    h3{
+
+    h3 {
         font-size: 14px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         width: 20% !important
     }
 }
